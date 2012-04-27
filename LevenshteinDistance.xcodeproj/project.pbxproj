@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1BC1302C153B8AD600200C22 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1BC1302D153B8AD600200C22 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1BC13031153B8AE300200C22 /* PBXTargetDependency */,
+				1BC13033153B8AE300200C22 /* PBXTargetDependency */,
+				1BC13035153B8AE300200C22 /* PBXTargetDependency */,
+				1BC13037153B8AE300200C22 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B11001C154960C800A17526 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
+		1B110021154960E600A17526 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
+		1B110022154960E700A17526 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
+		1B11002D1549619100A17526 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001B154960C800A17526 /* main.m */; };
+		1BC12DCF1537E57500200C22 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12DCE1537E57500200C22 /* SenTestingKit.framework */; };
+		1BC12DEF1537E58E00200C22 /* CLITest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC12DE81537E58E00200C22 /* CLITest.m */; };
+		1BC12DF01537E58E00200C22 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1BC12DEB1537E58E00200C22 /* InfoPlist.strings */; };
+		1BC12DF11537E58E00200C22 /* CLITest-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BC12DEE1537E58E00200C22 /* CLITest-Info.plist */; };
+		1BC12E0A1539D16300200C22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12E091539D16300200C22 /* Cocoa.framework */; };
+		1BC12FE3153B803900200C22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12E091539D16300200C22 /* Cocoa.framework */; };
+		1BC12FF3153B804A00200C22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12E091539D16300200C22 /* Cocoa.framework */; };
+		1BC13007153B806900200C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12DA81537E49900200C22 /* Foundation.framework */; };
+		1BC1301A153B809300200C22 /* liblibLevenshteinDistance.a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */; };
+		1BC13025153B842200200C22 /* LevenshteinDistanceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */; };
+		1BD0A6B61549AF1D00445047 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BC13013153B807A00200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC12FF1153B804A00200C22;
+			remoteInfo = LevenshteinDistance;
+		};
+		1BC13018153B808F00200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC12FE1153B803900200C22;
+			remoteInfo = KeyChainLib;
+		};
+		1BC13030153B8AE300200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC12E071539D16300200C22;
+			remoteInfo = dylibLevenshteinDistance;
+		};
+		1BC13032153B8AE300200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC12FE1153B803900200C22;
+			remoteInfo = KeyChainLib;
+		};
+		1BC13034153B8AE300200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC12FF1153B804A00200C22;
+			remoteInfo = LevenshteinDistance;
+		};
+		1BC13036153B8AE300200C22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BC12D9B1537E49900200C22 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BC13004153B806900200C22;
+			remoteInfo = distance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BC13003153B806900200C22 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1B11001A154960C800A17526 /* LevenshteinDistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevenshteinDistance.m; sourceTree = "<group>"; };
+		1B11001B154960C800A17526 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B11001E154960D300A17526 /* LevenshteinDistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevenshteinDistance.h; sourceTree = "<group>"; };
+		1BC12DA81537E49900200C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BC12DBC1537E52E00200C22 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		1BC12DC11537E52E00200C22 /* LevenshteinDistance-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LevenshteinDistance-Prefix.pch"; sourceTree = "<group>"; };
+		1BC12DC31537E52E00200C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC12DC51537E52E00200C22 /* CLI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CLI-Info.plist"; sourceTree = "<group>"; };
+		1BC12DCD1537E57500200C22 /* LevenshteinDistanceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LevenshteinDistanceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC12DCE1537E57500200C22 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1BC12DE51537E58E00200C22 /* CLITest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLITest.h; sourceTree = "<group>"; };
+		1BC12DE81537E58E00200C22 /* CLITest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLITest.m; sourceTree = "<group>"; };
+		1BC12DEA1537E58E00200C22 /* CLITests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLITests-Prefix.pch"; sourceTree = "<group>"; };
+		1BC12DEC1537E58E00200C22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1BC12DEE1537E58E00200C22 /* CLITest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CLITest-Info.plist"; sourceTree = "<group>"; };
+		1BC12DFA1537E7F200200C22 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1BC12E081539D16300200C22 /* libLevenshteinDistance.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLevenshteinDistance.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC12E091539D16300200C22 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1BC12E0C1539D16300200C22 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1BC12E0D1539D16300200C22 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1BC12E0E1539D16300200C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibLevenshteinDistance.a.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevenshteinDistanceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC13005153B806900200C22 /* distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = distance; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC12DC91537E57500200C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC1301A153B809300200C22 /* liblibLevenshteinDistance.a.a in Frameworks */,
+				1BC12DCF1537E57500200C22 /* SenTestingKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12E051539D16300200C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12E0A1539D16300200C22 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FDF153B803900200C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12FE3153B803900200C22 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FEE153B804A00200C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12FF3153B804A00200C22 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC13002153B806900200C22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC13025153B842200200C22 /* LevenshteinDistanceKit.framework in Frameworks */,
+				1BC13007153B806900200C22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BC12D991537E49900200C22 = {
+			isa = PBXGroup;
+			children = (
+				1BC12DBA1537E52E00200C22 /* main */,
+				1BC12DE31537E58E00200C22 /* test */,
+				1BC12DA71537E49900200C22 /* Frameworks */,
+				1BC12DA51537E49900200C22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1BC12DA51537E49900200C22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DCD1537E57500200C22 /* LevenshteinDistanceTests.octest */,
+				1BC12E081539D16300200C22 /* libLevenshteinDistance.dylib */,
+				1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */,
+				1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */,
+				1BC13005153B806900200C22 /* distance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BC12DA71537E49900200C22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DFA1537E7F200200C22 /* Security.framework */,
+				1BC12DA81537E49900200C22 /* Foundation.framework */,
+				1BC12DCE1537E57500200C22 /* SenTestingKit.framework */,
+				1BC12E091539D16300200C22 /* Cocoa.framework */,
+				1BC12E0B1539D16300200C22 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1BC12DBA1537E52E00200C22 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DBB1537E52E00200C22 /* h */,
+				1BC12DBD1537E52E00200C22 /* java */,
+				1BC12DBE1537E52E00200C22 /* m */,
+				1BC12DC01537E52E00200C22 /* resources */,
+				1BC12DC41537E52E00200C22 /* xcode */,
+			);
+			name = main;
+			path = src/main;
+			sourceTree = "<group>";
+		};
+		1BC12DBB1537E52E00200C22 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				1B11001E154960D300A17526 /* LevenshteinDistance.h */,
+				1BC12DBC1537E52E00200C22 /* main.h */,
+			);
+			path = h;
+			sourceTree = "<group>";
+		};
+		1BC12DBD1537E52E00200C22 /* java */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		1BC12DBE1537E52E00200C22 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				1B11001A154960C800A17526 /* LevenshteinDistance.m */,
+				1B11001B154960C800A17526 /* main.m */,
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		1BC12DC01537E52E00200C22 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DC11537E52E00200C22 /* LevenshteinDistance-Prefix.pch */,
+				1BC12DC21537E52E00200C22 /* InfoPlist.strings */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1BC12DC41537E52E00200C22 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DC51537E52E00200C22 /* CLI-Info.plist */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		1BC12DE31537E58E00200C22 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DE41537E58E00200C22 /* h */,
+				1BC12DE61537E58E00200C22 /* java */,
+				1BC12DE71537E58E00200C22 /* m */,
+				1BC12DE91537E58E00200C22 /* resources */,
+				1BC12DED1537E58E00200C22 /* xcode */,
+			);
+			name = test;
+			path = src/test;
+			sourceTree = "<group>";
+		};
+		1BC12DE41537E58E00200C22 /* h */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DE51537E58E00200C22 /* CLITest.h */,
+			);
+			path = h;
+			sourceTree = "<group>";
+		};
+		1BC12DE61537E58E00200C22 /* java */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = java;
+			sourceTree = "<group>";
+		};
+		1BC12DE71537E58E00200C22 /* m */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DE81537E58E00200C22 /* CLITest.m */,
+			);
+			path = m;
+			sourceTree = "<group>";
+		};
+		1BC12DE91537E58E00200C22 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DEA1537E58E00200C22 /* CLITests-Prefix.pch */,
+				1BC12DEB1537E58E00200C22 /* InfoPlist.strings */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1BC12DED1537E58E00200C22 /* xcode */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12DEE1537E58E00200C22 /* CLITest-Info.plist */,
+			);
+			path = xcode;
+			sourceTree = "<group>";
+		};
+		1BC12E0B1539D16300200C22 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BC12E0C1539D16300200C22 /* AppKit.framework */,
+				1BC12E0D1539D16300200C22 /* CoreData.framework */,
+				1BC12E0E1539D16300200C22 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BC12E061539D16300200C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FE0153B803900200C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FEF153B804A00200C22 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1BC12DCC1537E57500200C22 /* LevenshteinDistanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC12DE01537E57500200C22 /* Build configuration list for PBXNativeTarget "LevenshteinDistanceTests" */;
+			buildPhases = (
+				1BC12DC81537E57500200C22 /* Sources */,
+				1BC12DC91537E57500200C22 /* Frameworks */,
+				1BC12DCA1537E57500200C22 /* Resources */,
+				1BC12DCB1537E57500200C22 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC13019153B808F00200C22 /* PBXTargetDependency */,
+			);
+			name = LevenshteinDistanceTests;
+			productName = CLITests;
+			productReference = 1BC12DCD1537E57500200C22 /* LevenshteinDistanceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		1BC12E071539D16300200C22 /* libLevenshteinDistance.dylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC12E151539D16300200C22 /* Build configuration list for PBXNativeTarget "libLevenshteinDistance.dylib" */;
+			buildPhases = (
+				1BC12E041539D16300200C22 /* Sources */,
+				1BC12E051539D16300200C22 /* Frameworks */,
+				1BC12E061539D16300200C22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libLevenshteinDistance.dylib;
+			productName = dylibLevenshteinDistance;
+			productReference = 1BC12E081539D16300200C22 /* libLevenshteinDistance.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		1BC12FE1153B803900200C22 /* libLevenshteinDistance.a */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC12FEA153B803900200C22 /* Build configuration list for PBXNativeTarget "libLevenshteinDistance.a" */;
+			buildPhases = (
+				1BC12FDE153B803900200C22 /* Sources */,
+				1BC12FDF153B803900200C22 /* Frameworks */,
+				1BC12FE0153B803900200C22 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libLevenshteinDistance.a;
+			productName = KeyChainLib;
+			productReference = 1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1BC12FF1153B804A00200C22 /* LevenshteinDistanceKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC12FFE153B804B00200C22 /* Build configuration list for PBXNativeTarget "LevenshteinDistanceKit" */;
+			buildPhases = (
+				1BC12FED153B804A00200C22 /* Sources */,
+				1BC12FEE153B804A00200C22 /* Frameworks */,
+				1BC12FEF153B804A00200C22 /* Headers */,
+				1BC12FF0153B804A00200C22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LevenshteinDistanceKit;
+			productName = LevenshteinDistance;
+			productReference = 1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1BC13004153B806900200C22 /* distance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BC1300F153B806A00200C22 /* Build configuration list for PBXNativeTarget "distance" */;
+			buildPhases = (
+				1BC13001153B806900200C22 /* Sources */,
+				1BC13002153B806900200C22 /* Frameworks */,
+				1BC13003153B806900200C22 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BC13014153B807A00200C22 /* PBXTargetDependency */,
+			);
+			name = distance;
+			productName = distance;
+			productReference = 1BC13005153B806900200C22 /* distance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BC12D9B1537E49900200C22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Nice Robot Corporation";
+			};
+			buildConfigurationList = 1BC12D9E1537E49900200C22 /* Build configuration list for PBXProject "LevenshteinDistance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1BC12D991537E49900200C22;
+			productRefGroup = 1BC12DA51537E49900200C22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BC12DCC1537E57500200C22 /* LevenshteinDistanceTests */,
+				1BC12E071539D16300200C22 /* libLevenshteinDistance.dylib */,
+				1BC12FE1153B803900200C22 /* libLevenshteinDistance.a */,
+				1BC12FF1153B804A00200C22 /* LevenshteinDistanceKit */,
+				1BC13004153B806900200C22 /* distance */,
+				1BC1302C153B8AD600200C22 /* All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC12DCA1537E57500200C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12DF01537E58E00200C22 /* InfoPlist.strings in Resources */,
+				1BC12DF11537E58E00200C22 /* CLITest-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FF0153B804A00200C22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC12DCB1537E57500200C22 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BC12DC81537E57500200C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC12DEF1537E58E00200C22 /* CLITest.m in Sources */,
+				1B11001C154960C800A17526 /* LevenshteinDistance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12E041539D16300200C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B110022154960E700A17526 /* LevenshteinDistance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FDE153B803900200C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B110021154960E600A17526 /* LevenshteinDistance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC12FED153B804A00200C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BD0A6B61549AF1D00445047 /* LevenshteinDistance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BC13001153B806900200C22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B11002D1549619100A17526 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BC13014153B807A00200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC12FF1153B804A00200C22 /* LevenshteinDistanceKit */;
+			targetProxy = 1BC13013153B807A00200C22 /* PBXContainerItemProxy */;
+		};
+		1BC13019153B808F00200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC12FE1153B803900200C22 /* libLevenshteinDistance.a */;
+			targetProxy = 1BC13018153B808F00200C22 /* PBXContainerItemProxy */;
+		};
+		1BC13031153B8AE300200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC12E071539D16300200C22 /* libLevenshteinDistance.dylib */;
+			targetProxy = 1BC13030153B8AE300200C22 /* PBXContainerItemProxy */;
+		};
+		1BC13033153B8AE300200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC12FE1153B803900200C22 /* libLevenshteinDistance.a */;
+			targetProxy = 1BC13032153B8AE300200C22 /* PBXContainerItemProxy */;
+		};
+		1BC13035153B8AE300200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC12FF1153B804A00200C22 /* LevenshteinDistanceKit */;
+			targetProxy = 1BC13034153B8AE300200C22 /* PBXContainerItemProxy */;
+		};
+		1BC13037153B8AE300200C22 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BC13004153B806900200C22 /* distance */;
+			targetProxy = 1BC13036153B8AE300200C22 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BC12DC21537E52E00200C22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC12DC31537E52E00200C22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1BC12DEB1537E58E00200C22 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BC12DEC1537E58E00200C22 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BC12DB11537E49900200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1BC12DB21537E49900200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1BC12DE11537E57500200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/test/resources/CLITests-Prefix.pch";
+				INFOPLIST_FILE = "";
+				PRODUCT_NAME = LevenshteinDistanceTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1BC12DE21537E57500200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/test/resources/CLITests-Prefix.pch";
+				INFOPLIST_FILE = "";
+				PRODUCT_NAME = LevenshteinDistanceTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		1BC12E161539D16300200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = libLevenshteinDistance;
+			};
+			name = Debug;
+		};
+		1BC12E171539D16300200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = libLevenshteinDistance;
+			};
+			name = Release;
+		};
+		1BC12FEB153B803900200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BC12FEC153B803900200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BC12FFF153B804B00200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				INFOPLIST_FILE = "";
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1BC13000153B804B00200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				INFOPLIST_FILE = "";
+				OTHER_LDFLAGS = "";
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1BC13010153B806A00200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BC13011153B806A00200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1BC1302E153B8AD600200C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1BC1302F153B8AD600200C22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BC12D9E1537E49900200C22 /* Build configuration list for PBXProject "LevenshteinDistance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC12DB11537E49900200C22 /* Debug */,
+				1BC12DB21537E49900200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC12DE01537E57500200C22 /* Build configuration list for PBXNativeTarget "LevenshteinDistanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC12DE11537E57500200C22 /* Debug */,
+				1BC12DE21537E57500200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC12E151539D16300200C22 /* Build configuration list for PBXNativeTarget "libLevenshteinDistance.dylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC12E161539D16300200C22 /* Debug */,
+				1BC12E171539D16300200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC12FEA153B803900200C22 /* Build configuration list for PBXNativeTarget "libLevenshteinDistance.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC12FEB153B803900200C22 /* Debug */,
+				1BC12FEC153B803900200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC12FFE153B804B00200C22 /* Build configuration list for PBXNativeTarget "LevenshteinDistanceKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC12FFF153B804B00200C22 /* Debug */,
+				1BC13000153B804B00200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC1300F153B806A00200C22 /* Build configuration list for PBXNativeTarget "distance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC13010153B806A00200C22 /* Debug */,
+				1BC13011153B806A00200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BC1302D153B8AD600200C22 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BC1302E153B8AD600200C22 /* Debug */,
+				1BC1302F153B8AD600200C22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BC12D9B1537E49900200C22 /* Project object */;
+}
