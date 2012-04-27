@@ -36,7 +36,7 @@
 		1BC12FE3153B803900200C22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12E091539D16300200C22 /* Cocoa.framework */; };
 		1BC12FF3153B804A00200C22 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12E091539D16300200C22 /* Cocoa.framework */; };
 		1BC13007153B806900200C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12DA81537E49900200C22 /* Foundation.framework */; };
-		1BC1301A153B809300200C22 /* liblibLevenshteinDistance.a.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */; };
+		1BC1301A153B809300200C22 /* libLevenshteinDistance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */; };
 		1BC13025153B842200200C22 /* LevenshteinDistanceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */; };
 		1BD0A6B61549AF1D00445047 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
 /* End PBXBuildFile section */
@@ -120,7 +120,7 @@
 		1BC12E0C1539D16300200C22 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1BC12E0D1539D16300200C22 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1BC12E0E1539D16300200C22 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibLevenshteinDistance.a.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLevenshteinDistance.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevenshteinDistanceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC13005153B806900200C22 /* distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = distance; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -130,7 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BC1301A153B809300200C22 /* liblibLevenshteinDistance.a.a in Frameworks */,
+				1BC1301A153B809300200C22 /* libLevenshteinDistance.a in Frameworks */,
 				1BC12DCF1537E57500200C22 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -186,7 +186,7 @@
 			children = (
 				1BC12DCD1537E57500200C22 /* LevenshteinDistanceTests.octest */,
 				1BC12E081539D16300200C22 /* libLevenshteinDistance.dylib */,
-				1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */,
+				1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */,
 				1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */,
 				1BC13005153B806900200C22 /* distance */,
 			);
@@ -400,7 +400,7 @@
 			);
 			name = libLevenshteinDistance.a;
 			productName = KeyChainLib;
-			productReference = 1BC12FE2153B803900200C22 /* liblibLevenshteinDistance.a.a */;
+			productReference = 1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1BC12FF1153B804A00200C22 /* LevenshteinDistanceKit */ = {
@@ -702,7 +702,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LevenshteinDistance;
 			};
 			name = Debug;
 		};
@@ -711,7 +711,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "src/main/resources/LevenshteinDistance-Prefix.pch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LevenshteinDistance;
 			};
 			name = Release;
 		};
