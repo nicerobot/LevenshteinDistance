@@ -1,3 +1,8 @@
+PROJECT=LevenshteinDistance
+EXECUTABLE=distance
+KIT=$(PROJECT)Kit
+TARGET=target
+
 LANG=en_US.US-ASCII
 MACOSX_DEPLOYMENT_TARGET=10.7
 
@@ -11,12 +16,7 @@ ISYSROOT=-isysroot $(MACOSXSDK)
 SYSLIBROOT=-syslibroot $(MACOSXSDK)
 MMACOSX_VERSION_MIN=-mmacosx-version-min=$(MACOSX_DEPLOYMENT_TARGET)
 
-TARGET=target
-PROJECT=LevenshteinDistance
-KIT=$(PROJECT)Kit
-EXECUTABLE=distance
-
-all: $(TARGET)/lib$(PROJECT).dylib $(TARGET)/distance $(TARGET)/lib$(PROJECT).a
+all: $(TARGET)/lib$(PROJECT).dylib $(TARGET)/$(EXECUTABLE) $(TARGET)/lib$(PROJECT).a
 
 $(TARGET)/$(EXECUTABLE): $(TARGET)/main.o | $(TARGET)/lib$(PROJECT).dylib
 	@$(CLANG) -arch x86_64 $(ISYSROOT) -L$(TARGET) -F$(TARGET) $(MMACOSX_VERSION_MIN) -fobjc-arc \
@@ -54,7 +54,7 @@ $(TARGET)/$(KIT).framework/Versions/A/$(KIT): $(TARGET)/$(PROJECT).o | $(TARGET)
 	@$(CLANG) -dynamiclib -arch x86_64 $(ISYSROOT) -L$(TARGET) -F$(TARGET) \
 		$(MMACOSX_VERSION_MIN) -fobjc-arc -single_module -compatibility_version 1 -current_version 1 \
 		-framework Cocoa \
-		-include src/main/resources/LevenshteinDistance-Prefix.pch \
+		-include src/main/resources/$(PROJECT)-Prefix.pch \
 		-Isrc/main/h \
 		-install_name /Library/Frameworks/$(KIT).framework/Versions/A/$(KIT) \
 		-o $@ \
@@ -72,7 +72,7 @@ $(TARGET)/%.o: src/main/m/%.m | $(TARGET)
 		"-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" \
 		"-DIBAction=void)__attribute__((ibaction)" \
 		$(ISYSROOT) \
-		-include src/main/resources/LevenshteinDistance-Prefix.pch \
+		-include src/main/resources/$(PROJECT)-Prefix.pch \
 		-Isrc/main/h \
 		-Wno-conversion \
 		-Wno-missing-field-initializers \
