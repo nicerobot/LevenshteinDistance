@@ -52,7 +52,7 @@ int LevenshteinDistanceN(NSString *from, NSString *to)
   return d[m%2][n];
 }
 
-int LevenshteinDistance(NSString *from, NSString *to)
+int LevenshteinDistanceM(NSString *from, NSString *to)
 {
   int m = (int)[from length];
   int n = (int)[to length];
@@ -94,7 +94,7 @@ int LevenshteinDistance(NSString *from, NSString *to)
   return d[m%2+1][n];
 }
 
-int LevenshteinDistanceO(NSString *from, NSString *to)
+int LevenshteinDistance(NSString *from, NSString *to)
 {
   int m = (int)[from length];
   int n = (int)[to length];
