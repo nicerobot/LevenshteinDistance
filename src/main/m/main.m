@@ -12,6 +12,9 @@ int main (int argc, const char * argv[])
       printf("= %s\t%s\t%d\n",argv[1],argv[i],LevenshteinDistance(first,to));
       printf("N %s\t%s\t%d\n\n",argv[1],argv[i],LevenshteinDistanceN(first,to));
     }
+    NSRunLoop *loop = [NSRunLoop currentRunLoop];
+    int done = NO;
+    while (!done && [loop runMode:NSDefaultRunLoopMode beforeDate:[NSDate dateWithTimeIntervalSinceNow:1.0]]) done=YES;
   }
   return 0;
 }
