@@ -39,6 +39,10 @@
 		1BC1301A153B809300200C22 /* libLevenshteinDistance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */; };
 		1BC13025153B842200200C22 /* LevenshteinDistanceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */; };
 		1BD0A6B61549AF1D00445047 /* LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B11001A154960C800A17526 /* LevenshteinDistance.m */; };
+		1BF3022C15592FFC00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
+		1BF3022E15592FFD00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
+		1BF3022F15592FFF00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
+		1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +127,8 @@
 		1BC12FE2153B803900200C22 /* libLevenshteinDistance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLevenshteinDistance.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC12FF2153B804A00200C22 /* LevenshteinDistanceKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LevenshteinDistanceKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC13005153B806900200C22 /* distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = distance; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LevenshteinDistance.m"; sourceTree = "<group>"; };
+		1BF301FF15592C5C00B89EB5 /* NSString+LevenshteinDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LevenshteinDistance.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				1BC12DBB1537E52E00200C22 /* h */,
-				1BC12DBD1537E52E00200C22 /* java */,
 				1BC12DBE1537E52E00200C22 /* m */,
 				1BC12DC01537E52E00200C22 /* resources */,
 				1BC12DC41537E52E00200C22 /* xcode */,
@@ -222,22 +227,17 @@
 			isa = PBXGroup;
 			children = (
 				1B11001E154960D300A17526 /* LevenshteinDistance.h */,
+				1BF301FF15592C5C00B89EB5 /* NSString+LevenshteinDistance.h */,
 				1BC12DBC1537E52E00200C22 /* main.h */,
 			);
 			path = h;
-			sourceTree = "<group>";
-		};
-		1BC12DBD1537E52E00200C22 /* java */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = java;
 			sourceTree = "<group>";
 		};
 		1BC12DBE1537E52E00200C22 /* m */ = {
 			isa = PBXGroup;
 			children = (
 				1B11001A154960C800A17526 /* LevenshteinDistance.m */,
+				1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */,
 				1B11001B154960C800A17526 /* main.m */,
 			);
 			path = m;
@@ -264,7 +264,6 @@
 			isa = PBXGroup;
 			children = (
 				1BC12DE41537E58E00200C22 /* h */,
-				1BC12DE61537E58E00200C22 /* java */,
 				1BC12DE71537E58E00200C22 /* m */,
 				1BC12DE91537E58E00200C22 /* resources */,
 				1BC12DED1537E58E00200C22 /* xcode */,
@@ -279,13 +278,6 @@
 				1BC12DE51537E58E00200C22 /* CLITest.h */,
 			);
 			path = h;
-			sourceTree = "<group>";
-		};
-		1BC12DE61537E58E00200C22 /* java */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = java;
 			sourceTree = "<group>";
 		};
 		1BC12DE71537E58E00200C22 /* m */ = {
@@ -520,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B110022154960E700A17526 /* LevenshteinDistance.m in Sources */,
+				1BF3022C15592FFC00B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B110021154960E600A17526 /* LevenshteinDistance.m in Sources */,
+				1BF3022E15592FFD00B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BD0A6B61549AF1D00445047 /* LevenshteinDistance.m in Sources */,
+				1BF3022F15592FFF00B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B11002D1549619100A17526 /* main.m in Sources */,
+				1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
