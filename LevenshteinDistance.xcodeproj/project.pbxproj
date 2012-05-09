@@ -42,7 +42,6 @@
 		1BF3022C15592FFC00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 		1BF3022E15592FFD00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 		1BF3022F15592FFF00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
-		1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -539,7 +538,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B11002D1549619100A17526 /* main.m in Sources */,
-				1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
