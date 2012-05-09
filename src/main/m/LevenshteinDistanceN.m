@@ -4,6 +4,9 @@
 // Based on the pseudo-code and some optimizations at
 // http://en.wikipedia.org/wiki/Levenshtein_distance
 //
+
+#import "LevenshteinDistance.h"
+
 int LevenshteinDistanceN(NSString *from, NSString *to)
 {
   int m = (int)[from length];

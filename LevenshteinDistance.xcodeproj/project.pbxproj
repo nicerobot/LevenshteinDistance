@@ -43,6 +43,7 @@
 		1BF3022E15592FFD00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 		1BF3022F15592FFF00B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
 		1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */; };
+		1BF3028A155A155800B89EB5 /* LevenshteinDistanceN.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF30289155A155800B89EB5 /* LevenshteinDistanceN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		1BC13005153B806900200C22 /* distance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = distance; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LevenshteinDistance.m"; sourceTree = "<group>"; };
 		1BF301FF15592C5C00B89EB5 /* NSString+LevenshteinDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LevenshteinDistance.h"; sourceTree = "<group>"; };
+		1BF30289155A155800B89EB5 /* LevenshteinDistanceN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevenshteinDistanceN.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -237,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				1B11001A154960C800A17526 /* LevenshteinDistance.m */,
+				1BF30289155A155800B89EB5 /* LevenshteinDistanceN.m */,
 				1BF301FD15592C3800B89EB5 /* NSString+LevenshteinDistance.m */,
 				1B11001B154960C800A17526 /* main.m */,
 			);
@@ -540,6 +543,7 @@
 			files = (
 				1B11002D1549619100A17526 /* main.m in Sources */,
 				1BF302301559300000B89EB5 /* NSString+LevenshteinDistance.m in Sources */,
+				1BF3028A155A155800B89EB5 /* LevenshteinDistanceN.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
